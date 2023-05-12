@@ -28,6 +28,13 @@ font-size: 14px;
   margin-left: 2px;
 }
 
+.price-grey{
+color: #BDBDBD;
+}
+.price-green{
+  color: #23856d;
+}
+
 
 @media only screen and (min-width: 576px) {
   .greencolor {
@@ -48,4 +55,7 @@ font-size: 14px;
     font-size: 14px;
     }
 
+    .div-price{
+      width: 280px;
+    }
 }
