@@ -1,52 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/reset.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
-      rel="stylesheet" />
-    <link rel="stylesheet" href="/Bandage/css/style.css" />
-    <title>Bandage</title>
-  </head>
-  <body>
-    <div class="container-fluid navcolor">
-      <nav class="navbar">
-      <div class="container-xxl d-flex justify-content-between">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/reset.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/Bandage/css/style.css" />
+  <title>Bandage</title>
+</head>
+
+<body>
+  <div class="navcolor container-fluid">
+    <nav class="navbar navdesktop">
+      <div class="container d-flex py-2">
         <div class="d-flex">
+          <div>
+            <img src="/Bandage/icon/phone.svg" alt="phone" />
+            <a class="text-decoration-none text-white" href="tel:(225)
+                555-0118">(225) 555-0118</a>
+          </div>
+          <div class="ms-3">
+            <img src="/Bandage/icon/mail.svg" alt="mail" />
+            <a class="text-decoration-none text-white"
+              href="mailto:michelle.rivera@example.com">michelle.rivera@example.com</a>
+          </div>
+        </div>
         <div>
-          <img src="/Bandage/icon/phone.svg" alt="phone">
-          <a class="text-decoration-none text-white" href="tel:(225) 555-0118">(225) 555-0118</a>
+          <span class="fw-bold text-white">Follow Us and get a chance to win 80% off</span>
         </div>
-        <div class="ms-3">
-          <img src="/Bandage/icon/mail.svg" alt="mail">
-          <a class="text-decoration-none text-white" href="mailto:michelle.rivera@example.com">michelle.rivera@example.com</a>
+        <div class="d-flex">
+          <span class="fw-bold text-white">Follow Us :</span>
+          <div class="ms-2">
+            <a href="www.instagram.com"><img src="/Bandage/icon/instagram.svg" alt="instagram" /></a>
+          </div>
+          <div class="ms-2">
+            <a href="www.youtube.com"><img src="/Bandage/icon/youtube.svg" alt="youtube" /></a>
+          </div>
+          <div class="ms-2">
+            <a href="www.facebook.com"><img src="/Bandage/icon/facebook.svg" alt="facebook" /></a>
+          </div>
+          <div class="ms-2">
+            <a href="www.twitter.com"><img src="/Bandage/icon/twitter.svg" alt="twitter" /></a>
+          </div>
         </div>
       </div>
-      <div>
-          <span class="fw-bold text-white">Follow Us  and get a chance to win 80% off</span>
+    </nav>
+  </div>
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fw-bold justify-content-between">
+      <div class="container">
+        <a class="navbar-brand" href="#">Bandage</a>
+        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse ms-xxl-5" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Shop
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pages</a>
+            </li>
+          </ul>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 d-xxl-inline-flex">
+            <ul class="list-unstyled d-flex fw-bold pt-3 ">
+              <li class="ms-0 ">
+                <a class="text-decoration-none" href="#">
+                  <img src="/Bandage/icon/icon-login.svg" alt="Login/Register" />Login / Register</a>
+              </li>
+              <li class="ms-4">
+                <a href="#"><img src="/Bandage/icon/lupa.svg" alt="Lupa" /></a>
+              </li>
+              <li class="ms-4">
+                <a href="#"><img src="/Bandage/icon/chart.svg" alt="Chart" /></a>
+              </li>
+              <li class="ms-4">
+                <a href="#"><img src="/Bandage/icon/like.svg" alt="like" /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
-      <div class="d-flex">
-        <span class="fw-bold text-white">Follow Us  :</span>
-        <div class="ms-2"><a href="www.instagram.com"><img src="/Bandage/icon/instagram.svg" alt="instagram"></a></div>
-        <div class="ms-2"><a href="www.instagram.com"><img src="/Bandage/icon/youtube.svg" alt="instagram"></a></div>
-        <div class="ms-2"><a href="www.instagram.com"><img src="/Bandage/icon/facebook.svg" alt="instagram"></a></div>
-        <div class="ms-2"><a href="www.instagram.com"><img src="/Bandage/icon/twitter.svg" alt="instagram"></a></div>
-      </div>
+    </nav>
+  </div>
+  <div class="container-fluid bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-xxl-start text-center">
+          <a class="text-decoration-none text-dark fw-bold" href="#">Home</a> <i
+            class=" my-4 mx-3   text-secondary fa-solid fa-chevron-right"></i> <a
+            class="text-secondary text-decoration-none  " href="#">Shop</a>
+        </div>
+        <div class="col-xxl-6 col-sm-12">
+          <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item ">
+                <img src="/Bandage/img/hero-1.png" class="d-block w-100" alt="Hero-1" data-bs-slide="1">
+              </div>
+              <div class="carousel-item active">
+                <img src="/Bandage/img/hero-2.png" class="d-block w-100" alt="Hero-2" data-bs-slide="2">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+            <div class="d-inline-flex mt-3">
+              <div class="me-3" data-bs-slide="1">
+                <img src="/Bandage/img/hero-1.png" width="100" height="100" alt="Hero-1">
+              </div>
+              <div data-bs-slide="2">
+                <img src="/Bandage/img/hero-2.png" width="100" height="100" alt="Hero-2">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xxl-6 col-sm-12 ps-xxl-5 mt-5 mt-xxl-2 ">
+          <div style="height: 565px;" class="d-flex flex-column align-items-xxl-baseline">
+            <div>
+            <h4>Floating Phone</h4>
+          </div>
+            <div class="flex-xxl-row d-inline-flex mt-2">
+              <div class="list-unstyled text-warning">
+                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                </ul>
+              </div>
+              <span class="fw-bold ps-3 greytxt">10 Reviews</span>
+            </div>
+            <div class=" mt-3 mt-xxl-4"><span>
+                <h3 class="fw-bold">$1,139.33</h3>
+              </span></div>
+            <div class="fw-bold">
+              <span class="greytxt">Availability :</span>
+              <span class="text-primary">In Stock </span>
+            </div>
+            <div class="greytxt mt-xxl-3 mt-5">Met 1 minim Mollie non desert Alamo est sit cliquey dolor
+              do met sent. RELIT official consequent door ENIM RELIT Mollie.
+              Excitation venial consequent sent nostrum met.</div>
+            <hr class="mt-xxl-4">
+            <div>
+              <img src="/Bandage/icon/Ellipse 14.svg" alt="" class="m-1">
+              <img src="/Bandage/icon/Ellipse 15.svg" alt="" class="m-1">
+              <img src="/Bandage/icon/Ellipse 16.svg" alt="" class="m-1">
+              <img src="/Bandage/icon/Ellipse 17.svg" alt="" class="m-1">
+            </div>
+            <div class="d-inline-flex align-items-xxl-center mt-5">
+              <div><button type="button" class="btn btn-primary fw-bold">Select options</button></div>
+              <div class="ms-xxl-3 ms-1"><a href="#"><img src="/Bandage/icon/like2.svg" alt=""></a></div>
+              <div class="ms-xxl-3 ms-1"><a href="#"><img src="/Bandage/icon/chart2.svg" alt=""></a></div>
+              <div class="ms-xxl-3 ms-1"><a href="#"><img src="/Bandage/icon/more.svg" alt=""></a></div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </nav>
+  </div>
+  </div>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"></script>
-  </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/95c1de1c53.js" crossorigin="anonymous"></script>
+</body>
+
 </html>

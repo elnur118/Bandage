@@ -1,6 +1,46 @@
-.navcolor{
-  background-color: #23856D;
+*{
+  font-family: 'Montserrat', sans-serif;
 }
-.navbar{
-  height: 58px;
+.navdesktop {
+  display: none;
+}
+
+.navbar-brand {
+  color: #252b42;
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+  height: 216px;
+}
+
+.greytxt{
+color: #737373;
+font-size: 14px;
+}
+
+.hero2{
+  height: 565px;
+}
+
+
+@media only screen and (min-width: 576px) {
+  .navcolor {
+    background-color: #23856d;
+  }
+
+  .navdesktop {
+    display: block;
+    height: 58px;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next{
+    height: 565px;
+  }
+  .greytxt{
+    color: #737373;
+    font-size: 14px;
+    }
+
 }
