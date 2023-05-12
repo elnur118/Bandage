@@ -23,9 +23,14 @@ font-size: 14px;
   height: 565px;
 }
 
+.zero{
+  color: #23856d;
+  margin-left: 2px;
+}
+
 
 @media only screen and (min-width: 576px) {
-  .navcolor {
+  .greencolor {
     background-color: #23856d;
   }
 
