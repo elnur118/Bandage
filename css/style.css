@@ -14,10 +14,10 @@
   height: 216px;
 }
 
-.greytxt{
+/* .greytxt{
 color: #737373;
 font-size: 14px;
-}
+} */
 
 .hero2{
   height: 565px;
@@ -29,12 +29,15 @@ font-size: 14px;
 }
 
 .price-grey{
-color: #BDBDBD;
+  color: #BDBDBD;
 }
 .price-green{
   color: #23856d;
 }
 
+.div-price{
+  width: 250px;
+}
 
 @media only screen and (min-width: 576px) {
   .greencolor {
@@ -50,12 +53,12 @@ color: #BDBDBD;
   .carousel-control-next{
     height: 565px;
   }
-  .greytxt{
+  /* .greytxt{
     color: #737373;
     font-size: 14px;
-    }
+    } */
 
     .div-price{
-      width: 280px;
+      width: 270px;
     }
 }
