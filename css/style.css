@@ -1,41 +1,38 @@
-*{
+* {
   font-family: 'Montserrat', sans-serif;
 }
+
 .navdesktop {
   display: none;
 }
 
-.navbar-brand {
+.nav-brand-color{
   color: #252b42;
 }
 
 .carousel-control-prev,
-.carousel-control-next{
+.carousel-control-next {
   height: 216px;
 }
 
-/* .greytxt{
-color: #737373;
-font-size: 14px;
-} */
-
-.hero2{
+.hero2 {
   height: 565px;
 }
 
-.zero{
+.zero {
   color: #23856d;
   margin-left: 2px;
 }
 
-.price-grey{
+.price-grey {
   color: #BDBDBD;
 }
-.price-green{
+
+.price-green {
   color: #23856d;
 }
 
-.div-price{
+.div-price {
   width: 250px;
 }
 
@@ -50,15 +47,11 @@ font-size: 14px;
   }
 
   .carousel-control-prev,
-  .carousel-control-next{
+  .carousel-control-next {
     height: 565px;
   }
-  /* .greytxt{
-    color: #737373;
-    font-size: 14px;
-    } */
 
-    .div-price{
-      width: 270px;
-    }
+  .div-price {
+    width: 270px;
+  }
 }
