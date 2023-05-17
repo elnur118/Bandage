@@ -36,6 +36,17 @@
   width: 250px;
 }
 
+.ellipse{
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+
+}
+
+.img_descripion{
+  width: 250px;
+}
+
 @media only screen and (min-width: 576px) {
   .greencolor {
     background-color: #23856d;
